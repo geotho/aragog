@@ -17,8 +17,8 @@ func TestShouldCrawl(t *testing.T) {
 		"http://google.com/": true,
 		"http://google.com/cat.php?args": true,
 		"http://google.com/cat.php#fragment": false,
-		"https://google.com/cat.php": false,
-		"https://google.com/cat.php#fragment": false,
+		"https://google.com/cat.php": true,
+		"https://google.com/cat.php#fragment": true,
 	}
 
 	for k, v := range testCases {
