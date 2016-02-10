@@ -50,7 +50,7 @@ func Crawl(start url.URL) {
 		ActiveCrawlers<-true
 	}
 	<-ActiveCrawlers
-	parse.FetchHTML(start, Parses, ActiveCrawlers)
+	parse.Fetch(start, Parses, ActiveCrawlers)
 	for r := range Parses {
 		r:=r
 		fmt.Printf("Crawled %s\n", r.URL.String())
@@ -61,7 +61,7 @@ func Crawl(start url.URL) {
 			if shouldCrawl(l) {
 				<-ActiveCrawlers
 				Crawled[l] = resource.Resource{}
-				go parse.FetchHTML(l, Parses, ActiveCrawlers)
+				go parse.Fetch(l, Parses, ActiveCrawlers)
 			}
 		}
 
@@ -70,7 +70,7 @@ func Crawl(start url.URL) {
 			if shouldCrawl(a) && isCSS(a) {
 				<-ActiveCrawlers
 				Crawled[a] = resource.Resource{}
-				go parse.FetchCSS(a, Parses, ActiveCrawlers)
+				go parse.Fetch(a, Parses, ActiveCrawlers)
 			}
 		}
 
