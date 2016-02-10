@@ -21,10 +21,11 @@ var (
 )
 
 func main() {
+	flag.Parse()
 	Root := *Start
 	if Root == "" {
-		fmt.Println("--url flag not specified: using http://aimbrain.com/")
-		Root = "http://aimbrain.com/"
+		fmt.Println("--url flag not specified: using http://news.ycombinator.com/")
+		Root = "http://news.ycombinator.com/"
 	}
 
 	var err error
