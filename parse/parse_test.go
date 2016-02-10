@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/geotho/crawler/resource"
+	"github.com/geotho/aragog/resource"
 	"github.com/stretchr/testify/suite"
 )
 

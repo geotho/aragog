@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	gv "github.com/awalterschulze/gographviz"
-	"github.com/geotho/crawler/resource"
+	"github.com/geotho/aragog/resource"
+	gv "github.com/geotho/gographviz"
 )
 
 // A GraphvizSiteMap produces a .dot file and a .pdf of the crawled site.

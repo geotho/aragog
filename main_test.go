@@ -2,7 +2,7 @@ package main
 import (
 	"testing"
 	"net/url"
-	"github.com/geotho/crawler/resource"
+	"github.com/geotho/aragog/resource"
 )
 
 func TestShouldCrawl(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"sort"
 
-	"github.com/geotho/crawler/resource"
+	"github.com/geotho/aragog/resource"
 )
 
 // TextSiteMap writes text sitemaps into the /out folder.

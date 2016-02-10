@@ -6,9 +6,9 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/geotho/crawler/parse"
-	"github.com/geotho/crawler/resource"
-	"github.com/geotho/crawler/sitemap"
+	"github.com/geotho/aragog/parse"
+	"github.com/geotho/aragog/resource"
+	"github.com/geotho/aragog/sitemap"
 )
 
 var (
@@ -23,8 +23,8 @@ var (
 func main() {
 	Root := *Start
 	if Root == "" {
-		fmt.Println("--url flag not specified: using https://news.ycombinator.com/")
-		Root = "https://news.ycombinator.com"
+		fmt.Println("--url flag not specified: using http://aimbrain.com/")
+		Root = "http://aimbrain.com/"
 	}
 
 	var err error
@@ -46,18 +46,18 @@ func main() {
 // Crawl ranges over the Parses channel and spawns goroutines to parse
 // previously-unseen URLs. It halts once no new URLs are discovered.
 func Crawl(start url.URL) {
-	for i:= 0; i < *MaxCrawlers; i++ {
-		ActiveCrawlers<-true
+	for i := 0; i < *MaxCrawlers; i++ {
+		ActiveCrawlers <- true
 	}
 	<-ActiveCrawlers
 	parse.Fetch(start, Parses, ActiveCrawlers)
 	for r := range Parses {
-		r:=r
+		r := r
 		fmt.Printf("Crawled %s\n", r.URL.String())
 
 		Crawled[r.URL] = r
 		for l := range r.Links {
-			l:=l
+			l := l
 			if shouldCrawl(l) {
 				<-ActiveCrawlers
 				Crawled[l] = resource.Resource{}
@@ -66,7 +66,7 @@ func Crawl(start url.URL) {
 		}
 
 		for a := range r.Assets {
-			a:=a
+			a := a
 			if shouldCrawl(a) && isCSS(a) {
 				<-ActiveCrawlers
 				Crawled[a] = resource.Resource{}

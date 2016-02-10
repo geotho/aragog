@@ -11,7 +11,7 @@ import (
 	"strings"
 
 	"github.com/cenkalti/backoff"
-	"github.com/geotho/crawler/resource"
+	"github.com/geotho/aragog/resource"
 	"golang.org/x/net/html"
 	"golang.org/x/net/html/atom"
 )
