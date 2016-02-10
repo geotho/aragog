@@ -12,8 +12,9 @@ import (
 const (
 	htmlNothing          = `<div>foo</div>`
 	htmlA                = `<a href="foo.html"></a><a href="www.google.com/bar.html"></a>`
-	htmlLink             = `<link href="style.css"></link>`
-	htmlLinkSC           = `<link href="backboneangulargruntgulpnode.js" />`
+	htmlLink             = `<link rel="stylesheet" href="style.css"></link>`
+	htmlLinkSC           = `<link rel="stylesheet" href="style.css" />`
+	htmlScript           = `<script src="backboneangulargruntgulpnode.js"></script>`
 	htmlImg              = `<img src="meme.jpg">`
 	htmlImgSC            = `<img src="cat.gif" />`
 	htmlWithStyleTag     = `<style> @import "style.css"; </style>`
@@ -45,6 +46,7 @@ func (s *ParseTestSuite) TestParseHTML() {
 		ParseHTMLTestCase{
 			html: htmlNothing,
 			expectedParse: resource.Resource{
+				// URL: parseURL("http://www.google.com"),
 				Links:  map[url.URL]bool{},
 				Assets: map[url.URL]bool{},
 			},
@@ -52,6 +54,7 @@ func (s *ParseTestSuite) TestParseHTML() {
 		ParseHTMLTestCase{
 			html: htmlA,
 			expectedParse: resource.Resource{
+				// URL: parseURL("http://www.google.com"),
 				Links: map[url.URL]bool{
 					parseURL("foo.html"):                true,
 					parseURL("www.google.com/bar.html"): true,
@@ -62,6 +65,7 @@ func (s *ParseTestSuite) TestParseHTML() {
 		ParseHTMLTestCase{
 			html: htmlLink,
 			expectedParse: resource.Resource{
+				// URL: parseURL("http://www.google.com"),
 				Links: map[url.URL]bool{},
 				Assets: map[url.URL]bool{
 					parseURL("style.css"): true,
@@ -71,6 +75,17 @@ func (s *ParseTestSuite) TestParseHTML() {
 		ParseHTMLTestCase{
 			html: htmlLinkSC,
 			expectedParse: resource.Resource{
+				// URL: parseURL("http://www.google.com"),
+				Links: map[url.URL]bool{},
+				Assets: map[url.URL]bool{
+					parseURL("style.css"): true,
+				},
+			},
+		},
+		ParseHTMLTestCase{
+			html: htmlScript,
+			expectedParse: resource.Resource{
+				// URL: parseURL("http://www.google.com"),
 				Links: map[url.URL]bool{},
 				Assets: map[url.URL]bool{
 					parseURL("backboneangulargruntgulpnode.js"): true,
@@ -80,6 +95,7 @@ func (s *ParseTestSuite) TestParseHTML() {
 		ParseHTMLTestCase{
 			html: htmlImg,
 			expectedParse: resource.Resource{
+				// URL: parseURL("http://www.google.com"),
 				Links: map[url.URL]bool{},
 				Assets: map[url.URL]bool{
 					parseURL("meme.jpg"): true,
@@ -89,6 +105,7 @@ func (s *ParseTestSuite) TestParseHTML() {
 		ParseHTMLTestCase{
 			html: htmlImgSC,
 			expectedParse: resource.Resource{
+				// URL: parseURL("http://www.google.com"),
 				Links: map[url.URL]bool{},
 				Assets: map[url.URL]bool{
 					parseURL("cat.gif"): true,
@@ -96,8 +113,9 @@ func (s *ParseTestSuite) TestParseHTML() {
 			},
 		},
 		ParseHTMLTestCase{
-			html: htmlNothing + htmlA + htmlLink + htmlLinkSC + htmlImg + htmlImgSC,
+			html: htmlNothing + htmlA + htmlLink + htmlLinkSC + htmlScript + htmlImg + htmlImgSC,
 			expectedParse: resource.Resource{
+				// URL: parseURL("http://www.google.com"),
 				Links: map[url.URL]bool{
 					parseURL("foo.html"):                true,
 					parseURL("www.google.com/bar.html"): true,
@@ -113,6 +131,7 @@ func (s *ParseTestSuite) TestParseHTML() {
 		ParseHTMLTestCase{
 			html: htmlWithStyleTag,
 			expectedParse: resource.Resource{
+				// URL: parseURL("http://www.google.com"),
 				Links: map[url.URL]bool{},
 				Assets: map[url.URL]bool{
 					parseURL("style.css"): true,
@@ -122,6 +141,7 @@ func (s *ParseTestSuite) TestParseHTML() {
 		ParseHTMLTestCase{
 			html: htmlWithNothingStyle,
 			expectedParse: resource.Resource{
+				// URL: parseURL("http://www.google.com"),
 				Links:  map[url.URL]bool{},
 				Assets: map[url.URL]bool{},
 			},
@@ -129,6 +149,7 @@ func (s *ParseTestSuite) TestParseHTML() {
 		ParseHTMLTestCase{
 			html: htmlWithNothingStyle + htmlWithStyleTag,
 			expectedParse: resource.Resource{
+				// URL: parseURL("http://www.google.com"),
 				Links: map[url.URL]bool{},
 				Assets: map[url.URL]bool{
 					parseURL("style.css"): true,
@@ -138,6 +159,7 @@ func (s *ParseTestSuite) TestParseHTML() {
 		ParseHTMLTestCase{
 			html: htmlWithStyleAttr,
 			expectedParse: resource.Resource{
+				// URL: parseURL("http://www.google.com"),
 				Links: map[url.URL]bool{},
 				Assets: map[url.URL]bool{
 					parseURL("cats.bmp"): true,
@@ -187,39 +209,9 @@ func (s *ParseTestSuite) TestParseCSS() {
 	}
 }
 
-func (s *ParseTestSuite) TestNormaliseResource() {
-	testCases := map[string]string{
-		"http://google.com/foo.png": "http://google.com/foo.png",
-		"#header": "http://google.com/testcase/",
-		"/bar.jpg": "http://google.com/bar.jpg",
-		"test": "http://google.com/testcase/test",
-		"http://amazon.com/kindle.jpg": "http://amazon.com/kindle.jpg",
-	}
-
-	for k, v := range testCases {
-		actual := normaliseResource(resource.Resource{
-			URL:    parseURL("http://google.com/testcase/"),
-			Links:  makeURLMap(k),
-			Assets: makeURLMap(k),
-		})
-		expected := makeURLMap(v)
-		s.Equal(expected, actual.Links, "Expected %s, got %s", expected, actual.Links)
-		s.Equal(expected, actual.Assets, "Expected %s, got %s", expected, actual.Assets)
-	}
-
-}
-
 func parseURL(parseMe string) url.URL {
 	u, _ := url.Parse(parseMe)
 	return *u
-}
-
-func makeURLMap(ss ...string) map[url.URL]bool {
-	m := make(map[url.URL]bool, len(ss))
-	for _, s := range ss {
-		m[parseURL(s)] = true
-	}
-	return m
 }
 
 func TestParseTestSuite(t *testing.T) {

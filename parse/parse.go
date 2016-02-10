@@ -47,7 +47,7 @@ func FetchHTML(u url.URL, parses chan<- resource.Resource, done chan<- bool) {
 		log.Printf("[FetchHTML] Failed to parse HTML: %s\n", err.Error())
 	}
 	parse.URL = u
-	parse = normaliseResource(parse)
+	(&parse).Normalise()
 	parses <- parse
 }
 
@@ -91,7 +91,7 @@ func FetchCSS(u url.URL, parses chan<- resource.Resource, done chan<- bool) {
 		Assets: parse,
 	}
 
-	r = normaliseResource(r)
+	(&r).Normalise()
 	parses <- r
 }
 
@@ -116,14 +116,14 @@ func ParseHTML(body io.Reader) (resource.Resource, error) {
 					r.Links[*attr] = true
 				}
 			case atom.Link:
-				// <link> tags load js and css assets.
+				// <link> tags loads css assets.
 				if attr, ok := extractAttrToURL(t, atom.Href); ok {
-					// RSS is not a static asset.
-					if typeAttr := extractAttr(t, atom.Type); typeAttr != "application/rss+xml" {
+					// Ignore alternate links
+					if rel := extractAttr(t, atom.Rel); rel == "stylesheet" {
 						r.Assets[*attr] = true
 					}
 				}
-			case atom.Img:
+			case atom.Img, atom.Script:
 				// <img> tags load image assets.
 				if attr, ok := extractAttrToURL(t, atom.Src); ok {
 					r.Assets[*attr] = true
@@ -152,7 +152,10 @@ func ParseHTML(body io.Reader) (resource.Resource, error) {
 			switch t.DataAtom {
 			case atom.Link:
 				if attr, ok := extractAttrToURL(t, atom.Href); ok {
-					r.Assets[*attr] = true
+					// Ignore alternate links
+					if rel := extractAttr(t, atom.Rel); rel == "stylesheet" {
+						r.Assets[*attr] = true
+					}
 				}
 			case atom.Img:
 				if attr, ok := extractAttrToURL(t, atom.Src); ok {
@@ -245,44 +248,4 @@ func extractAttrToURL(t html.Token, attr atom.Atom) (*url.URL, bool) {
 	}
 
 	return nil, false
-}
-
-// normaliseResource returns a new Resource with all the Links and Assets
-// replaced with absolute URLs. Invalid URLs, or those not HTTP and HTTPs, are removed.
-// It also removes URL fragments (e.g. google.com#stuff).
-func normaliseResource(p resource.Resource) resource.Resource {
-	newLinks := make(map[url.URL]bool, len(p.Links))
-	newAssets := make(map[url.URL]bool, len(p.Assets))
-
-	for k := range p.Links {
-		absoluteURL := p.URL.ResolveReference(&k)
-		//		if absoluteURL.Scheme != "http" {
-		//			continue
-		//		}
-		if absoluteURL.Host != p.URL.Host {
-			continue
-		}
-		absoluteURL.Fragment = ""
-		newLinks[*absoluteURL] = true
-	}
-
-	for k := range p.Assets {
-		absoluteURL := p.URL.ResolveReference(&k)
-		//		if absoluteURL.Scheme != "http" {
-		//			continue
-		//		}
-		if absoluteURL.Host != p.URL.Host {
-			continue
-		}
-		absoluteURL.Fragment = ""
-		newAssets[*absoluteURL] = true
-	}
-
-	r := resource.Resource{
-		URL:    p.URL,
-		Links:  newLinks,
-		Assets: newAssets,
-	}
-	r.URL.Fragment = ""
-	return r
 }
