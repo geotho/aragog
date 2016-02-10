@@ -1,0 +1,990 @@
+http://news.ycombinator.com
+	Links:
+	Assets:
+http://news.ycombinator.com/
+	Links:
+		http://news.ycombinator.com/ask
+		http://news.ycombinator.com/bookmarklet.html
+		http://news.ycombinator.com/dmca.html
+		http://news.ycombinator.com/from?site=amazon.com
+		http://news.ycombinator.com/from?site=arstechnica.com
+		http://news.ycombinator.com/from?site=bbc.com
+		http://news.ycombinator.com/from?site=blog.twitter.com
+		http://news.ycombinator.com/from?site=bloomberg.com
+		http://news.ycombinator.com/from?site=brainpreservation.org
+		http://news.ycombinator.com/from?site=deepstream.io
+		http://news.ycombinator.com/from?site=github.com
+		http://news.ycombinator.com/from?site=hollywoodreporter.com
+		http://news.ycombinator.com/from?site=juliacomputing.com
+		http://news.ycombinator.com/from?site=kaylinwalker.com
+		http://news.ycombinator.com/from?site=lever.co
+		http://news.ycombinator.com/from?site=medium.com
+		http://news.ycombinator.com/from?site=nationalgeographic.com
+		http://news.ycombinator.com/from?site=newyorker.com
+		http://news.ycombinator.com/from?site=npr.org
+		http://news.ycombinator.com/from?site=openshotvideo.com
+		http://news.ycombinator.com/from?site=opensource.com
+		http://news.ycombinator.com/from?site=pnas.org
+		http://news.ycombinator.com/from?site=programmingforbeginnersbook.com
+		http://news.ycombinator.com/from?site=programmingzen.com
+		http://news.ycombinator.com/from?site=reuters.com
+		http://news.ycombinator.com/from?site=socketcluster.io
+		http://news.ycombinator.com/from?site=techcrunch.com
+		http://news.ycombinator.com/from?site=theatlantic.com
+		http://news.ycombinator.com/from?site=washingtonpost.com
+		http://news.ycombinator.com/from?site=wired.com
+		http://news.ycombinator.com/from?site=wsj.com
+		http://news.ycombinator.com/from?site=ycombinator.com
+		http://news.ycombinator.com/item?id=11065661
+		http://news.ycombinator.com/item?id=11069501
+		http://news.ycombinator.com/item?id=11069898
+		http://news.ycombinator.com/item?id=11069994
+		http://news.ycombinator.com/item?id=11070147
+		http://news.ycombinator.com/item?id=11070192
+		http://news.ycombinator.com/item?id=11070406
+		http://news.ycombinator.com/item?id=11070528
+		http://news.ycombinator.com/item?id=11070584
+		http://news.ycombinator.com/item?id=11070600
+		http://news.ycombinator.com/item?id=11070764
+		http://news.ycombinator.com/item?id=11070805
+		http://news.ycombinator.com/item?id=11070923
+		http://news.ycombinator.com/item?id=11071014
+		http://news.ycombinator.com/item?id=11071177
+		http://news.ycombinator.com/item?id=11071517
+		http://news.ycombinator.com/item?id=11071521
+		http://news.ycombinator.com/item?id=11071749
+		http://news.ycombinator.com/item?id=11071916
+		http://news.ycombinator.com/item?id=11072159
+		http://news.ycombinator.com/item?id=11072359
+		http://news.ycombinator.com/item?id=11072570
+		http://news.ycombinator.com/item?id=11072718
+		http://news.ycombinator.com/item?id=11072723
+		http://news.ycombinator.com/item?id=11072761
+		http://news.ycombinator.com/item?id=11072799
+		http://news.ycombinator.com/item?id=11073032
+		http://news.ycombinator.com/item?id=11073167
+		http://news.ycombinator.com/item?id=11073353
+		http://news.ycombinator.com/item?id=11073401
+		http://news.ycombinator.com/jobs
+		http://news.ycombinator.com/lists
+		http://news.ycombinator.com/login?goto=news
+		http://news.ycombinator.com/newcomments
+		http://news.ycombinator.com/newest
+		http://news.ycombinator.com/news
+		http://news.ycombinator.com/news?p=2
+		http://news.ycombinator.com/newsfaq.html
+		http://news.ycombinator.com/newsguidelines.html
+		http://news.ycombinator.com/security.html
+		http://news.ycombinator.com/show
+		http://news.ycombinator.com/submit
+		http://news.ycombinator.com/user?id=Amorymeltzer
+		http://news.ycombinator.com/user?id=DiabloD3
+		http://news.ycombinator.com/user?id=Lofkin
+		http://news.ycombinator.com/user?id=MzHN
+		http://news.ycombinator.com/user?id=acangiano
+		http://news.ycombinator.com/user?id=apo
+		http://news.ycombinator.com/user?id=bootload
+		http://news.ycombinator.com/user?id=chewymouse
+		http://news.ycombinator.com/user?id=dankohn1
+		http://news.ycombinator.com/user?id=drakaal
+		http://news.ycombinator.com/user?id=eamonncarey
+		http://news.ycombinator.com/user?id=hepha1979
+		http://news.ycombinator.com/user?id=jondubois
+		http://news.ycombinator.com/user?id=molsson
+		http://news.ycombinator.com/user?id=nikolay
+		http://news.ycombinator.com/user?id=niuzeta
+		http://news.ycombinator.com/user?id=nkurz
+		http://news.ycombinator.com/user?id=pavornyoh
+		http://news.ycombinator.com/user?id=pdq
+		http://news.ycombinator.com/user?id=plehoux
+		http://news.ycombinator.com/user?id=r721
+		http://news.ycombinator.com/user?id=randomname2
+		http://news.ycombinator.com/user?id=rkda
+		http://news.ycombinator.com/user?id=signa11
+		http://news.ycombinator.com/user?id=troika
+		http://news.ycombinator.com/user?id=vinnyglennon
+		http://news.ycombinator.com/user?id=wallflower
+		http://news.ycombinator.com/user?id=walterbell
+		http://news.ycombinator.com/vote?for=11065661&dir=up&goto=news
+		http://news.ycombinator.com/vote?for=11069501&dir=up&goto=news
+		http://news.ycombinator.com/vote?for=11069898&dir=up&goto=news
+		http://news.ycombinator.com/vote?for=11069994&dir=up&goto=news
+		http://news.ycombinator.com/vote?for=11070147&dir=up&goto=news
+		http://news.ycombinator.com/vote?for=11070192&dir=up&goto=news
+		http://news.ycombinator.com/vote?for=11070406&dir=up&goto=news
+		http://news.ycombinator.com/vote?for=11070528&dir=up&goto=news
+		http://news.ycombinator.com/vote?for=11070584&dir=up&goto=news
+		http://news.ycombinator.com/vote?for=11070600&dir=up&goto=news
+		http://news.ycombinator.com/vote?for=11070764&dir=up&goto=news
+		http://news.ycombinator.com/vote?for=11070805&dir=up&goto=news
+		http://news.ycombinator.com/vote?for=11070923&dir=up&goto=news
+		http://news.ycombinator.com/vote?for=11071014&dir=up&goto=news
+		http://news.ycombinator.com/vote?for=11071177&dir=up&goto=news
+		http://news.ycombinator.com/vote?for=11071517&dir=up&goto=news
+		http://news.ycombinator.com/vote?for=11071521&dir=up&goto=news
+		http://news.ycombinator.com/vote?for=11071749&dir=up&goto=news
+		http://news.ycombinator.com/vote?for=11071916&dir=up&goto=news
+		http://news.ycombinator.com/vote?for=11072159&dir=up&goto=news
+		http://news.ycombinator.com/vote?for=11072359&dir=up&goto=news
+		http://news.ycombinator.com/vote?for=11072570&dir=up&goto=news
+		http://news.ycombinator.com/vote?for=11072718&dir=up&goto=news
+		http://news.ycombinator.com/vote?for=11072723&dir=up&goto=news
+		http://news.ycombinator.com/vote?for=11072799&dir=up&goto=news
+		http://news.ycombinator.com/vote?for=11073032&dir=up&goto=news
+		http://news.ycombinator.com/vote?for=11073167&dir=up&goto=news
+		http://news.ycombinator.com/vote?for=11073353&dir=up&goto=news
+		http://news.ycombinator.com/vote?for=11073401&dir=up&goto=news
+	Assets:
+		http://news.ycombinator.com/news.css?I3uMhSgJy7uTRfP6zeEN
+		http://news.ycombinator.com/s.gif
+		http://news.ycombinator.com/y18.gif
+http://news.ycombinator.com/ask
+	Links:
+	Assets:
+http://news.ycombinator.com/bookmarklet.html
+	Links:
+		http://news.ycombinator.com
+	Assets:
+		http://news.ycombinator.com/yc.css
+		http://news.ycombinator.com/yc500.gif
+http://news.ycombinator.com/dmca.html
+	Links:
+	Assets:
+http://news.ycombinator.com/forgot?id=
+	Links:
+	Assets:
+http://news.ycombinator.com/formatdoc
+	Links:
+	Assets:
+		http://news.ycombinator.com/news.css?I3uMhSgJy7uTRfP6zeEN
+		http://news.ycombinator.com/y18.gif
+http://news.ycombinator.com/from?site=amazon.com
+	Links:
+	Assets:
+http://news.ycombinator.com/from?site=arstechnica.com
+	Links:
+	Assets:
+http://news.ycombinator.com/from?site=bbc.com
+	Links:
+	Assets:
+http://news.ycombinator.com/from?site=blog.twitter.com
+	Links:
+	Assets:
+http://news.ycombinator.com/from?site=bloomberg.com
+	Links:
+	Assets:
+http://news.ycombinator.com/from?site=brainpreservation.org
+	Links:
+	Assets:
+http://news.ycombinator.com/from?site=deepstream.io
+	Links:
+	Assets:
+http://news.ycombinator.com/from?site=github.com
+	Links:
+	Assets:
+http://news.ycombinator.com/from?site=hollywoodreporter.com
+	Links:
+	Assets:
+http://news.ycombinator.com/from?site=juliacomputing.com
+	Links:
+	Assets:
+http://news.ycombinator.com/from?site=kaylinwalker.com
+	Links:
+	Assets:
+http://news.ycombinator.com/from?site=lever.co
+	Links:
+	Assets:
+http://news.ycombinator.com/from?site=medium.com
+	Links:
+	Assets:
+http://news.ycombinator.com/from?site=nationalgeographic.com
+	Links:
+	Assets:
+http://news.ycombinator.com/from?site=newyorker.com
+	Links:
+	Assets:
+http://news.ycombinator.com/from?site=npr.org
+	Links:
+	Assets:
+http://news.ycombinator.com/from?site=openshotvideo.com
+	Links:
+	Assets:
+http://news.ycombinator.com/from?site=opensource.com
+	Links:
+	Assets:
+http://news.ycombinator.com/from?site=pnas.org
+	Links:
+	Assets:
+http://news.ycombinator.com/from?site=programmingforbeginnersbook.com
+	Links:
+	Assets:
+http://news.ycombinator.com/from?site=programmingzen.com
+	Links:
+	Assets:
+http://news.ycombinator.com/from?site=reuters.com
+	Links:
+	Assets:
+http://news.ycombinator.com/from?site=socketcluster.io
+	Links:
+	Assets:
+http://news.ycombinator.com/from?site=techcrunch.com
+	Links:
+	Assets:
+http://news.ycombinator.com/from?site=theatlantic.com
+	Links:
+		http://news.ycombinator.com/ask
+		http://news.ycombinator.com/bookmarklet.html
+		http://news.ycombinator.com/dmca.html
+		http://news.ycombinator.com/from?site=theatlantic.com
+		http://news.ycombinator.com/from?site=theatlantic.com&next=11013856
+		http://news.ycombinator.com/item?id=11014165
+		http://news.ycombinator.com/item?id=11026189
+		http://news.ycombinator.com/item?id=11026829
+		http://news.ycombinator.com/item?id=11028696
+		http://news.ycombinator.com/item?id=11031532
+		http://news.ycombinator.com/item?id=11034980
+		http://news.ycombinator.com/item?id=11035167
+		http://news.ycombinator.com/item?id=11035971
+		http://news.ycombinator.com/item?id=11036756
+		http://news.ycombinator.com/item?id=11038929
+		http://news.ycombinator.com/item?id=11039287
+		http://news.ycombinator.com/item?id=11046017
+		http://news.ycombinator.com/item?id=11046656
+		http://news.ycombinator.com/item?id=11050068
+		http://news.ycombinator.com/item?id=11055594
+		http://news.ycombinator.com/item?id=11059181
+		http://news.ycombinator.com/item?id=11059878
+		http://news.ycombinator.com/item?id=11060585
+		http://news.ycombinator.com/item?id=11062796
+		http://news.ycombinator.com/item?id=11063077
+		http://news.ycombinator.com/item?id=11065153
+		http://news.ycombinator.com/item?id=11066095
+		http://news.ycombinator.com/item?id=11070147
+		http://news.ycombinator.com/item?id=11070192
+		http://news.ycombinator.com/item?id=11070358
+		http://news.ycombinator.com/item?id=11072075
+		http://news.ycombinator.com/item?id=11072620
+		http://news.ycombinator.com/item?id=11072737
+		http://news.ycombinator.com/item?id=11073215
+		http://news.ycombinator.com/item?id=11073294
+		http://news.ycombinator.com/jobs
+		http://news.ycombinator.com/lists
+		http://news.ycombinator.com/login?goto=from%3Fsite%3Dtheatlantic.com
+		http://news.ycombinator.com/newcomments
+		http://news.ycombinator.com/newest
+		http://news.ycombinator.com/news
+		http://news.ycombinator.com/newsfaq.html
+		http://news.ycombinator.com/newsguidelines.html
+		http://news.ycombinator.com/security.html
+		http://news.ycombinator.com/show
+		http://news.ycombinator.com/submit
+		http://news.ycombinator.com/user?id=Amorymeltzer
+		http://news.ycombinator.com/user?id=DiabloD3
+		http://news.ycombinator.com/user?id=LVB
+		http://news.ycombinator.com/user?id=MilnerRoute
+		http://news.ycombinator.com/user?id=Vigier
+		http://news.ycombinator.com/user?id=aethertap
+		http://news.ycombinator.com/user?id=augb
+		http://news.ycombinator.com/user?id=benbreen
+		http://news.ycombinator.com/user?id=biffa
+		http://news.ycombinator.com/user?id=chewymouse
+		http://news.ycombinator.com/user?id=colinprince
+		http://news.ycombinator.com/user?id=cwal37
+		http://news.ycombinator.com/user?id=elorant
+		http://news.ycombinator.com/user?id=gmays
+		http://news.ycombinator.com/user?id=imarg
+		http://news.ycombinator.com/user?id=joveian
+		http://news.ycombinator.com/user?id=kiethtalent
+		http://news.ycombinator.com/user?id=klunger
+		http://news.ycombinator.com/user?id=mrfusion
+		http://news.ycombinator.com/user?id=nabla9
+		http://news.ycombinator.com/user?id=nols
+		http://news.ycombinator.com/user?id=omarmeky
+		http://news.ycombinator.com/user?id=pmcpinto
+		http://news.ycombinator.com/user?id=pns
+		http://news.ycombinator.com/user?id=prostoalex
+		http://news.ycombinator.com/user?id=selimthegrim
+		http://news.ycombinator.com/user?id=sergeant3
+		http://news.ycombinator.com/user?id=wbsun
+		http://news.ycombinator.com/user?id=zeristor
+		http://news.ycombinator.com/vote?for=11014165&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+		http://news.ycombinator.com/vote?for=11026189&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+		http://news.ycombinator.com/vote?for=11026829&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+		http://news.ycombinator.com/vote?for=11028696&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+		http://news.ycombinator.com/vote?for=11031532&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+		http://news.ycombinator.com/vote?for=11034980&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+		http://news.ycombinator.com/vote?for=11035167&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+		http://news.ycombinator.com/vote?for=11035971&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+		http://news.ycombinator.com/vote?for=11036756&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+		http://news.ycombinator.com/vote?for=11038929&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+		http://news.ycombinator.com/vote?for=11039287&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+		http://news.ycombinator.com/vote?for=11046017&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+		http://news.ycombinator.com/vote?for=11046656&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+		http://news.ycombinator.com/vote?for=11050068&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+		http://news.ycombinator.com/vote?for=11055594&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+		http://news.ycombinator.com/vote?for=11059181&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+		http://news.ycombinator.com/vote?for=11059878&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+		http://news.ycombinator.com/vote?for=11060585&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+		http://news.ycombinator.com/vote?for=11062796&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+		http://news.ycombinator.com/vote?for=11063077&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+		http://news.ycombinator.com/vote?for=11065153&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+		http://news.ycombinator.com/vote?for=11066095&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+		http://news.ycombinator.com/vote?for=11070147&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+		http://news.ycombinator.com/vote?for=11070192&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+		http://news.ycombinator.com/vote?for=11070358&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+		http://news.ycombinator.com/vote?for=11072075&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+		http://news.ycombinator.com/vote?for=11072620&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+		http://news.ycombinator.com/vote?for=11072737&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+		http://news.ycombinator.com/vote?for=11073215&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+		http://news.ycombinator.com/vote?for=11073294&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+	Assets:
+		http://news.ycombinator.com/news.css?I3uMhSgJy7uTRfP6zeEN
+		http://news.ycombinator.com/s.gif
+		http://news.ycombinator.com/y18.gif
+http://news.ycombinator.com/from?site=theatlantic.com&next=11013856
+	Links:
+	Assets:
+http://news.ycombinator.com/from?site=washingtonpost.com
+	Links:
+	Assets:
+http://news.ycombinator.com/from?site=wired.com
+	Links:
+	Assets:
+http://news.ycombinator.com/from?site=wsj.com
+	Links:
+	Assets:
+http://news.ycombinator.com/from?site=ycombinator.com
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11014165
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11026189
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11026829
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11028696
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11031532
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11034980
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11035167
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11035971
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11036756
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11038929
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11039287
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11046017
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11046656
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11050068
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11055594
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11059181
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11059878
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11060585
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11062796
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11063077
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11065153
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11065661
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11066095
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11069501
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11069898
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11069994
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11070147
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11070192
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11070358
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11070406
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11070528
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11070584
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11070600
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11070764
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11070805
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11070923
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11071014
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11071177
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11071517
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11071521
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11071749
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11071916
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11072075
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11072159
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11072359
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11072570
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11072620
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11072718
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11072723
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11072737
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11072761
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11072799
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11073032
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11073167
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11073215
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11073294
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11073353
+	Links:
+	Assets:
+http://news.ycombinator.com/item?id=11073401
+	Links:
+	Assets:
+http://news.ycombinator.com/jobs
+	Links:
+	Assets:
+http://news.ycombinator.com/lists
+	Links:
+	Assets:
+http://news.ycombinator.com/login?goto=from%3Fsite%3Dtheatlantic.com
+	Links:
+	Assets:
+http://news.ycombinator.com/login?goto=news
+	Links:
+	Assets:
+http://news.ycombinator.com/login?goto=user%3Fid%3Deamonncarey
+	Links:
+	Assets:
+http://news.ycombinator.com/login?goto=user%3Fid%3Drandomname2
+	Links:
+	Assets:
+http://news.ycombinator.com/newcomments
+	Links:
+	Assets:
+http://news.ycombinator.com/newest
+	Links:
+	Assets:
+http://news.ycombinator.com/newpoll
+	Links:
+	Assets:
+http://news.ycombinator.com/news
+	Links:
+	Assets:
+http://news.ycombinator.com/news.css?I3uMhSgJy7uTRfP6zeEN
+	Links:
+	Assets:
+		http://news.ycombinator.com/grayarrow.gif
+		http://news.ycombinator.com/grayarrow2x.gif
+http://news.ycombinator.com/news?p=2
+	Links:
+	Assets:
+http://news.ycombinator.com/newsfaq.html
+	Links:
+		http://news.ycombinator.com/formatdoc
+		http://news.ycombinator.com/newcomments
+		http://news.ycombinator.com/newest
+		http://news.ycombinator.com/newpoll
+		http://news.ycombinator.com/newsguidelines.html
+		http://news.ycombinator.com/submitted?id=whoishiring
+	Assets:
+		http://news.ycombinator.com/yc.css
+		http://news.ycombinator.com/yc500.gif
+http://news.ycombinator.com/newsguidelines.html
+	Links:
+	Assets:
+		http://news.ycombinator.com/yc.css
+		http://news.ycombinator.com/yc500.gif
+http://news.ycombinator.com/security.html
+	Links:
+		https://news.ycombinator.com/item?id=639976
+		https://news.ycombinator.com/item?id=8604586
+	Assets:
+		http://news.ycombinator.com/yc.css
+		http://news.ycombinator.com/yc500.gif
+http://news.ycombinator.com/show
+	Links:
+	Assets:
+http://news.ycombinator.com/submit
+	Links:
+	Assets:
+http://news.ycombinator.com/submitted?id=eamonncarey
+	Links:
+	Assets:
+http://news.ycombinator.com/submitted?id=randomname2
+	Links:
+	Assets:
+http://news.ycombinator.com/submitted?id=whoishiring
+	Links:
+	Assets:
+http://news.ycombinator.com/threads?id=eamonncarey
+	Links:
+	Assets:
+http://news.ycombinator.com/threads?id=randomname2
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=Amorymeltzer
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=DiabloD3
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=LVB
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=Lofkin
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=MilnerRoute
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=MzHN
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=Vigier
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=acangiano
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=aethertap
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=apo
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=augb
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=benbreen
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=biffa
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=bootload
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=chewymouse
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=colinprince
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=cwal37
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=dankohn1
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=drakaal
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=eamonncarey
+	Links:
+		http://news.ycombinator.com/ask
+		http://news.ycombinator.com/jobs
+		http://news.ycombinator.com/login?goto=user%3Fid%3Deamonncarey
+		http://news.ycombinator.com/newcomments
+		http://news.ycombinator.com/newest
+		http://news.ycombinator.com/news
+		http://news.ycombinator.com/show
+		http://news.ycombinator.com/submit
+		http://news.ycombinator.com/submitted?id=eamonncarey
+		http://news.ycombinator.com/threads?id=eamonncarey
+		http://news.ycombinator.com/user?id=eamonncarey
+	Assets:
+		http://news.ycombinator.com/news.css?I3uMhSgJy7uTRfP6zeEN
+		http://news.ycombinator.com/y18.gif
+http://news.ycombinator.com/user?id=elorant
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=gmays
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=hepha1979
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=imarg
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=jondubois
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=joveian
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=kiethtalent
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=klunger
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=molsson
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=mrfusion
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=nabla9
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=nikolay
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=niuzeta
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=nkurz
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=nols
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=omarmeky
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=pavornyoh
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=pdq
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=plehoux
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=pmcpinto
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=pns
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=prostoalex
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=r721
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=randomname2
+	Links:
+		http://news.ycombinator.com/ask
+		http://news.ycombinator.com/jobs
+		http://news.ycombinator.com/login?goto=user%3Fid%3Drandomname2
+		http://news.ycombinator.com/newcomments
+		http://news.ycombinator.com/newest
+		http://news.ycombinator.com/news
+		http://news.ycombinator.com/show
+		http://news.ycombinator.com/submit
+		http://news.ycombinator.com/submitted?id=randomname2
+		http://news.ycombinator.com/threads?id=randomname2
+		http://news.ycombinator.com/user?id=randomname2
+	Assets:
+		http://news.ycombinator.com/news.css?I3uMhSgJy7uTRfP6zeEN
+		http://news.ycombinator.com/y18.gif
+http://news.ycombinator.com/user?id=rkda
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=selimthegrim
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=sergeant3
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=signa11
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=troika
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=vinnyglennon
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=wallflower
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=walterbell
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=wbsun
+	Links:
+	Assets:
+http://news.ycombinator.com/user?id=zeristor
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11014165&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11026189&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11026829&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11028696&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11031532&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11034980&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11035167&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11035971&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11036756&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11038929&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11039287&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11046017&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11046656&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11050068&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11055594&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11059181&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+	Links:
+		http://news.ycombinator.com/forgot?id=
+	Assets:
+http://news.ycombinator.com/vote?for=11059878&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11060585&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11062796&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11063077&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11065153&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11065661&dir=up&goto=news
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11066095&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11069501&dir=up&goto=news
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11069898&dir=up&goto=news
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11069994&dir=up&goto=news
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11070147&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11070147&dir=up&goto=news
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11070192&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11070192&dir=up&goto=news
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11070358&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11070406&dir=up&goto=news
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11070528&dir=up&goto=news
+	Links:
+		http://news.ycombinator.com/forgot?id=
+	Assets:
+http://news.ycombinator.com/vote?for=11070584&dir=up&goto=news
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11070600&dir=up&goto=news
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11070764&dir=up&goto=news
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11070805&dir=up&goto=news
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11070923&dir=up&goto=news
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11071014&dir=up&goto=news
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11071177&dir=up&goto=news
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11071517&dir=up&goto=news
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11071521&dir=up&goto=news
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11071749&dir=up&goto=news
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11071916&dir=up&goto=news
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11072075&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11072159&dir=up&goto=news
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11072359&dir=up&goto=news
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11072570&dir=up&goto=news
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11072620&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11072718&dir=up&goto=news
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11072723&dir=up&goto=news
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11072737&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11072799&dir=up&goto=news
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11073032&dir=up&goto=news
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11073167&dir=up&goto=news
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11073215&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11073294&dir=up&goto=from%3Fsite%3Dtheatlantic.com
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11073353&dir=up&goto=news
+	Links:
+	Assets:
+http://news.ycombinator.com/vote?for=11073401&dir=up&goto=news
+	Links:
+	Assets:
+http://news.ycombinator.com/yc.css
+	Links:
+	Assets:
+https://news.ycombinator.com/item?id=639976
+	Links:
+	Assets:
+https://news.ycombinator.com/item?id=8604586
+	Links:
+	Assets:
