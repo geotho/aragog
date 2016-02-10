@@ -13,7 +13,7 @@ import (
 
 var (
 	Parses         = make(chan resource.Resource, 1000)
-	MaxCrawlers    = 20
+	MaxCrawlers    = flag.Int("crawlers", 20, "Maximum number of crawlers to use.")
 	ActiveCrawlers = make(chan bool, 1000)
 	Crawled        = make(map[url.URL]resource.Resource)
 	Start          = flag.String("url", "", "URL to start crawling from. Usernames etc. will be ignored.")
@@ -23,8 +23,8 @@ var (
 func main() {
 	Root := *Start
 	if Root == "" {
-		fmt.Println("--url flag not specified: using http://tomblomfield.com")
-		Root = "http://tomblomfield.com"
+		fmt.Println("--url flag not specified: using https://news.ycombinator.com/")
+		Root = "https://news.ycombinator.com"
 	}
 
 	var err error
@@ -39,13 +39,14 @@ func main() {
 	sm := sitemap.TextSiteMap{}
 	sm.SiteMap(Crawled)
 
+	(&sitemap.GraphvizSiteMap{}).SiteMap(Crawled)
 	fmt.Println("DONE")
 }
 
 // Crawl ranges over the Parses channel and spawns goroutines to parse
 // previously-unseen URLs. It halts once no new URLs are discovered.
 func Crawl(start url.URL) {
-	for i:= 0; i < MaxCrawlers; i++ {
+	for i:= 0; i < *MaxCrawlers; i++ {
 		ActiveCrawlers<-true
 	}
 	<-ActiveCrawlers
@@ -73,7 +74,7 @@ func Crawl(start url.URL) {
 			}
 		}
 
-		if len(ActiveCrawlers) == MaxCrawlers {
+		if len(ActiveCrawlers) == *MaxCrawlers {
 			return
 		}
 	}
