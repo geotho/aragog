@@ -16,83 +16,50 @@ import (
 	"golang.org/x/net/html/atom"
 )
 
-// FetchHTML downloads HTML from given URI, extracts URIs to links and assets
-// and sends this on the parses channel.
-func FetchHTML(u url.URL, parses chan<- resource.Resource, done chan<- bool) {
-	defer func() {
-		done <- true
-	}()
+func Fetch(u url.URL, parses chan <- resource.Resource, done chan<- bool) {
+	defer func() {done <- true}()
 
 	respC := make(chan *http.Response, 1)
 
+	// If MaxCrawlers is too high, some TCP connections die. Retry them if they fail, but not indefinitely.
 	err := backoff.Retry(func() error {
 		resp, err := http.Get(u.String())
 		if err != nil {
-			log.Printf("RETRYING: %s", err.Error())
 			return err
 		}
 		respC <- resp
 		return nil
 	}, backoff.NewExponentialBackOff())
 	if err != nil {
-		log.Printf("[FetchHTML] %s", err.Error())
+		log.Printf("[Fetch] %s", err.Error())
 		return
 	}
-
 	resp := <-respC
 	defer resp.Body.Close()
+	var parse resource.Resource
 
-	parse, err := ParseHTML(resp.Body)
-	if err != nil {
-		log.Printf("[FetchHTML] Failed to parse HTML: %s\n", err.Error())
+	if isCSS(u) {
+		body, err := ioutil.ReadAll(resp.Body)
+		if err != nil {
+			log.Printf("[Fetch] Could not read CSS body of respose to %s: %s\n", u, err.Error())
+			return
+		}
+		assets := ParseCSS(string(body))
+		parse = resource.Resource{
+			URL:    u,
+			Links:  make(map[url.URL]bool),
+			Assets: assets,
+		}
+	} else {
+		parse, err = ParseHTML(resp.Body)
+		if err != nil {
+			log.Printf("[Fetch] Failed to parse HTML: %s\n", err.Error())
+		}
 	}
+
 	parse.URL = u
 	(&parse).Normalise()
 	parses <- parse
-}
-
-// FetchCSS downloads CSS from given URI, extracts @imports and other assets
-// and sends this on the parses channel.
-func FetchCSS(u url.URL, parses chan<- resource.Resource, done chan<- bool) {
-	defer func() {
-		done <- true
-	}()
-
-	respC := make(chan *http.Response, 1)
-
-	err := backoff.Retry(func() error {
-		resp, err := http.Get(u.String())
-		if err != nil {
-			log.Printf("RETRYING: %s", err.Error())
-			return err
-		}
-		respC <- resp
-		return nil
-	}, backoff.NewExponentialBackOff())
-	if err != nil {
-		log.Printf("[FetchCSS] %s", err.Error())
-		return
-	}
-
-	resp := <-respC
-	defer resp.Body.Close()
-
-	body, err := ioutil.ReadAll(resp.Body)
-	if err != nil {
-		log.Printf("[FetchCSS] Could not read body of respose to %s: %s\n", u, err.Error())
-		return
-	}
-
-	parse := ParseCSS(string(body))
-
-	r := resource.Resource{
-		URL:    u,
-		Links:  make(map[url.URL]bool),
-		Assets: parse,
-	}
-
-	(&r).Normalise()
-	parses <- r
 }
 
 // ParseHTML takes a body of HTML and returns a Resource containing
@@ -223,6 +190,10 @@ func extractURL(extractMe string) (*url.URL, error) {
 	}
 	extractMe = strings.Trim(extractMe, ` "'()`)
 	return url.Parse(extractMe)
+}
+
+func isCSS(url url.URL) bool {
+	return strings.HasSuffix(url.Path, ".css")
 }
 
 func extractAttr(t html.Token, attr atom.Atom) string {
