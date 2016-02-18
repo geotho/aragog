@@ -16,8 +16,8 @@ import (
 	"golang.org/x/net/html/atom"
 )
 
-func Fetch(u url.URL, parses chan <- resource.Resource, done chan<- bool) {
-	defer func() {done <- true}()
+func Fetch(u url.URL, parses chan<- resource.Resource, done chan<- bool) {
+	defer func() { done <- true }()
 
 	respC := make(chan *http.Response, 1)
 
@@ -74,7 +74,7 @@ func ParseHTML(body io.Reader) (resource.Resource, error) {
 	z := html.NewTokenizer(body)
 	for tt := z.Next(); tt != html.ErrorToken; tt = z.Next() {
 		switch tt {
-		case html.StartTagToken:
+		case html.StartTagToken, html.SelfClosingTagToken:
 			t := z.Token()
 			switch t.DataAtom {
 			case atom.A:
@@ -111,22 +111,6 @@ func ParseHTML(body io.Reader) (resource.Resource, error) {
 					for url := range ParseCSS(style) {
 						r.Assets[url] = true
 					}
-				}
-			}
-		case html.SelfClosingTagToken:
-			// <link /> and <img /> are valid in XHTML and HTML5.
-			t := z.Token()
-			switch t.DataAtom {
-			case atom.Link:
-				if attr, ok := extractAttrToURL(t, atom.Href); ok {
-					// Ignore alternate links
-					if rel := extractAttr(t, atom.Rel); rel == "stylesheet" {
-						r.Assets[*attr] = true
-					}
-				}
-			case atom.Img:
-				if attr, ok := extractAttrToURL(t, atom.Src); ok {
-					r.Assets[*attr] = true
 				}
 			}
 		}
